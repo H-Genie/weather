@@ -1,0 +1,35 @@
+@import url("https://nicolas-cusan.github.io/destyle.css/destyle.css");
+@font-face { font-family: 'TmoneyRoundWindRegular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+/* Main */
+body {margin: 20px; background-color: #E8D4D1; font-family: 'TmoneyRoundWindRegular';}
+.box {display: flex; flex-wrap: wrap;}
+
+.container {background-color: white; width: 200px; height: 200px; margin: 20px; padding: 10px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 13px 27px -5px rgba(50,50,93,0.25), 0 8px 16px -8px rgba(0,0,0,0.3), 0 -6px 16px -6px rgba(0,0,0,025); border-radius: 10px;}
+h4 {line-height: 40px; font-weight: 600;}
+
+.indent {padding-left: 10px; line-height: 30px;}
+.temp {font-weight: 600;}
+.icon {display: flex; align-items: center;}
+.icon p {font-size: 13px; letter-spacing: -1px;}
+
+
+@media screen and (max-width:520px) {
+    body {margin: 10px;}
+    .box {justify-content: space-evenly;}
+    .container {width: 120px; height: 120px; font-size: 10px; margin: 10px;}
+    .icon img {width: 30px;}
+    .icon p {font-size: 10px;}
+
+    h4 {line-height: 20px;}
+    .indent {line-height: 15px;}
+}
+
+/* Detail */
+.details {margin: 20px 0 0 20px;}
+.detail_icon {display: flex; align-items: center;}
+.details >p {margin-top: 20px;}
+.details >p:first-child {margin-top: 10px;}
+
+/* Headers */
+header {margin-left: 20px; font-size: 24px; color: #69443F; font-weight: 900;}
